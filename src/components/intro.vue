@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import dataJson from "@/assets/jyw.json";
 export default {
   data() {
     return {
@@ -11,9 +10,7 @@ export default {
     };
   },
   created() {
-    let url = "https://www.kinxpeng.com/demo/js/jyw/imgs/";
-    let res = dataJson.data;
-    console.log(res.nav);
+    
   },
 };
 </script>
